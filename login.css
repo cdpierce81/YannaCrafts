@@ -1,0 +1,59 @@
+form {
+	background-color: LightGrey;
+	border: 3px solid Silver;
+	margin: auto;
+	font-size: 10px;
+	padding: 10px;
+	width: 25%;
+}
+
+form.form {
+	padding: 15px;
+}
+
+.form {
+	margin: 30px auto;
+	text-align: center;
+}
+	
+input[type = text], input[type = password] {
+	text-align: center;
+	width: 100%;
+	padding: 15px 20px;
+	margin: 8px 0px;
+	display: block;
+	border: 1px solid LightGrey;
+	box-sizing: border-box;
+}
+
+.login {
+	padding: 15px 10px;
+}
+
+button {
+	background-color: LightSkyBlue;
+	color: white;
+	padding: 14px 20px;
+	margin: auto;
+	border: none;
+	cursor: pointer;
+}
+	
+button:hover {
+	opacity: 0.8;
+}
+
+	
+span a {
+	color: LightSkyBlue;
+	width: auto;
+	padding: 15px 5px;
+}
+
+@media only screen and (max-width: 800px) {
+	.form {
+		width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
