@@ -1,137 +1,136 @@
-	* {
-		margin: 0;
-		box-sizing: border-box;
-		font-family: Helvetica, sans-serif;
-	}
-	
-	body {
-		overflow-x: hidden;
-	}
-	
-	header {
-		color: black;
-		box-shadow: 10px 10px 5px Silver;
-		padding: 1px;
-		text-align: center;
-	}
-	
-	.info {
-		color: black;
-		margin: 10px;
-		padding: 50px 50px;
-	}
-	
-	.navbar {
-		margin: 10px;
-		padding: 15px 5px;
-		overflow: hidden;
-		font-size: 5px;
-		float: right;
-	}
-	
-	.navbar a {
-		font-size: 10px;
-		color: black;
-		text-align: center;
-		padding: 1px 5px;
-		text-decoration: none;
-	}
-	
-	.navbar a.active {
-		background-color: Salmon;
-		color: white;
-	}
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+}
 
-	.navbar a:hover {
-		border-right: 1px groove black;
-		border-left: 1px groove black;
-	}
-	
-	h1 {
-		text-align: center;
-		font-size: 20px;
-	}
-	
-	#header {
-		box-shadow: 10px 10px 5px Silver;
-		padding: 10px;
-	}
-	
-	.container, .menu {
-		margin: auto;
-		width: 100%;
-		text-align: center;
-	}
-	
-	.menu {
-		text-shadow: 10px 10px 5px Silver;
-	}
-	
-	.submenu {
-		padding-bottom: 10px;
-		text-align: center;
-		overflow: auto;
-	}
-	
-	.submenu a {
-		color: black;
-		display: inline-block;
-		text-decoration: none;
-		text-align: center;
-		padding: 0 15px;
-	}
-	
-	.submenu a.active {
-		background-color: AliceBlue;
-		color: white;
-	}
-	
-	.submenu a:hover {
-		background-color: white;
-		border-right: 1px groove black;
-		border-left: 1px groove black;
-	}
-	
-	div.gallery {
-		border: 1px solid #ccc;
-	}
-	
-	div.gallery:hover {
-		box-shadow: 10px 10px 5px Silver;
-	}
-	
-	div.gallery img {
-		width: 100%;
-		height: auto;
-	}
-	
-	.descript {
-		padding: 5px;
-		text-align: center;
-	}
-	
-	.reactive {
-		padding: 0 6px;
-		float: left;
-		width: 24.99999%;
-	}
-	
-	footer {
-		background-color: AliceBlue;
-		color: black;
-		text-align: center;
-		font-size: 8px;
-		position: fixed;
-		bottom: 0px;
-		width: 100%;
-		height: 25px;
-		z-index: 1;
-	}
-	
-	.clearfix::after {
-		content: "";
-		display: table;
-		clear: both;
-	}
+body {
+	overflow-x: hidden;
+}
 
-	
+header {
+	color: black;
+	box-shadow: 10px 10px 5px Silver;
+	padding: 1px;
+	text-align: center;
+}
+
+.info {
+	color: black;
+	margin: 10px;
+	padding: 50px 50px;
+}
+
+.navbar {
+	margin: 10px;
+	padding: 15px 5px;
+	overflow: hidden;
+	font-size: 5px;
+	float: right;
+}
+
+.navbar a {
+	font-size: 10px;
+	color: black;
+	text-align: center;
+	padding: 1px 5px;
+	text-decoration: none;
+}
+
+.navbar a.active {
+	background-color: Salmon;
+	color: white;
+}
+
+.navbar a:hover {
+	border-right: 1px groove black;
+	border-left: 1px groove black;
+}
+
+h1 {
+	text-align: center;
+	font-size: 20px;
+}
+
+#header {
+	box-shadow: 10px 10px 5px Silver;
+	padding: 10px;
+}
+
+.container, .menu {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.menu {
+	text-shadow: 10px 10px 5px Silver;
+}
+
+.submenu {
+	padding-bottom: 10px;
+	text-align: center;
+	overflow: auto;
+}
+
+.submenu a {
+	color: black;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.submenu a.active {
+	background-color: LightBlue;
+	color: white;
+}
+
+.submenu a:hover {
+	background-color: white;
+	border-right: 1px groove black;
+	border-left: 1px groove black;
+}
+
+div.gallery {
+	border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+	box-shadow: 10px 10px 5px Silver;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+.descript {
+	padding: 5px;
+	text-align: center;
+}
+
+.reactive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+footer {
+	background-color: AliceBlue;
+	color: black;
+	text-align: center;
+	font-size: 8px;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 25px;
+	z-index: 1;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
