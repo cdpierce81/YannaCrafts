@@ -40,22 +40,32 @@
 			<div class = "heading">
 				<h2>Please fill out the form and we will contact you shortly. Thank you!</h2>
 			
-				<form  class = "form" action = "contact.php">
-					<input type = "text" placeholder = "Name" name = "name" required>
+				<form  class = "form" action = "contact.php" method = "post">
+					<input type = "text" placeholder = " Enter Name" name = "name" required>
 	
-					<input type = "text" placeholder = "Phone" name = "phone" required>
+					<input type = "text" placeholder = "Phone Number" name = "phone" required>
+					
+					<input type = "text" placeholder = "Enter Email" name = "email" required>
 			
-					<textarea placeholder = "Text .." name = "message" style = "height: 50px"></textarea>
-						
+					<textarea placeholder = "Message..." name = "message" style = "height: 50px"></textarea>
+					<br>
+					<p>Contact method:</p><br>
+					<div>
+						<p>Phone</p><input type = "checkbox">
+					<br>
+						<p>Email</p><input type = "checkbox">
+					<br>
+					</div>
+					<br>
 					<button class = "submit" type = "submit" value = "Submit">Submit</button>
 				</form>
 			</div>
 			<div class = "heading" style = "margin: 20px;text-align: center;">
 				<h3>Or contact us:</h3><br>
 				<br>
-				<p>Phone: <a href = "tel:+1-904-713-1357">+1 (904) 713-1357</a></p>
+				<p>Phone: <a href = "tel:+1-999-999-9999">+1 (999) 999-9999</a></p>
 				<br>
-				<p>Phone: <a href = "tel:+1-706-684-3115">+1 (706) 684-3115</a></p>
+				<p>Phone: <a href = "tel:+1-999-999-9999">+1 (999) 999-9999</a></p>
 				<br>
 				<p>Email: <a href = "mailto:yannacrafts@gmail.com">yannacrafts@gmail.com</a></p>
 						
