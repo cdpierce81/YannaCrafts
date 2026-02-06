@@ -13,6 +13,15 @@ function displayMessages() {
             </div>
         `;
     }
+
+    // Show the success text on the page
+    const note = document.getElementById('success-note');
+    note.style.display = 'block';
+
+    // Optional: Clear the form so they can send another one
+    document.getElementById('contact-name').value = '';
+    document.getElementById('contact-email').value = '';
+    document.getElementById('contact-message').value = '';
 }
 
 // Function to clear the "database"
