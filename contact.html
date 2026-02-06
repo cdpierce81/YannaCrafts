@@ -38,16 +38,16 @@
 		
 		<div style = "padding: 50px;">
 			<div class = "heading">
-				<h2>Please fill out the form and we will contact you shortly. Thank you!</h2>
+				<h2>Please fill out the form, and we will contact you shortly. Thank you!</h2>
 			
 				<form  class = "form" action = "contact.php" method = "post">
-					<input type = "text" placeholder = " Enter Name" name = "name" required>
+					<input type = "text" id = "contact-name" placeholder = "Enter Name" name = "name" required>
 	
 					<input type = "text" placeholder = "Phone Number" name = "phone" required>
 					
-					<input type = "text" placeholder = "Enter Email" name = "email" required>
+					<input type = "email" id = "contact-email" placeholder = "Enter Email" name = "email" required>
 			
-					<textarea placeholder = "Message..." name = "message" style = "height: 50px"></textarea>
+					<textarea id = "contact-message" placeholder = "Message..." name = "message" style = "height: 50px"></textarea>
 					<br>
 					<p>Contact method:</p><br>
 					<div>
@@ -57,7 +57,7 @@
 					<br>
 					</div>
 					<br>
-					<button class = "submit" type = "submit" value = "Submit">Submit</button>
+					<button class = "submit" type = "submit" onclick = "saveMessage()">Submit</button>
 				</form>
 			</div>
 			<div class = "heading" style = "margin: 20px;text-align: center;">
