@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Admin - User Messages</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header class="container">
+        <h1>* Admin Dashboard *</h1>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Back to Contact</a>
+        </nav>
+    </header>
+
+    <div style="padding: 50px;">
+        <h2>Saved Messages</h2>
+        <div id="message-display">
+            <p>No messages yet!</p>
+        </div>
+        <br>
+        <button onclick="clearMessages()">Clear All Messages</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Run this function as soon as the page loads
+        window.onload = function() {
+            displayMessages();
+        };
+    </script>
+</body>
+</html>
+
