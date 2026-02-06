@@ -25,3 +25,21 @@ function registerUser() {
 
     alert("User saved to local browser database!");
 }
+
+function loginUser() {
+    // 1. Get what the user typed in the login box
+    const emailAttempt = document.getElementById('login-email').value;
+    
+    // 2. Go to the "Local Database" and grab the saved user
+    // We use JSON.parse to turn the "String" back into a "JSON Object"
+    const savedUser = JSON.parse(localStorage.getItem('yanna_user'));
+
+    // 3. The If/Else Logic (The Brains)
+    if (savedUser && savedUser.email === emailAttempt) {
+        alert("Success! Welcome back to Yanna Crafts.");
+        // You could redirect them to a 'members' page here
+    } else {
+        alert("Error: User not found in our database.");
+    }
+}
+
