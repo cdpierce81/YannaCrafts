@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Custom Purple Wreath",
+    "price": "$25.00",
+    "image": "images/wreath.jpg",
+    "description": "Hand-made with love."
+  },
+  {
+    "id": 2,
+    "name": "I💜2DrvU Keychain",
+    "price": "$10.00",
+    "image": "images/keychain.jpg",
+    "description": "Show your transport pride!"
+  }
+]
+
