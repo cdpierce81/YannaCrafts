@@ -14,4 +14,23 @@
     "description": "Show your transport pride!"
   }
 ]
-
+ [
+  {
+    "name": "DIY Starter Kit",
+    "price": "$5.00",
+    "image": "images/placeholder.jpg",
+    "description": "Learn the basics of crafting with this simple kit."
+  },
+  {
+    "name": "Healthy Snack Box",
+    "price": "$8.00",
+    "image": "images/placeholder.jpg",
+    "description": "Ingredients for a quick and nutritious treat."
+  },
+  {
+    "name": "Money Management Guide",
+    "price": "$2.00",
+    "image": "images/placeholder.jpg",
+    "description": "A fun way to track your first savings goal."
+  }
+]
