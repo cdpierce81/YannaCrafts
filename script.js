@@ -1,3 +1,26 @@
+// Function to show messages on the admin page
+function displayMessages() {
+    const displayArea = document.getElementById('message-display');
+    const savedData = localStorage.getItem('userMessage');
+
+    if (savedData) {
+        const msg = JSON.parse(savedData);
+        displayArea.innerHTML = `
+            <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px;">
+                <p><strong>From:</strong> ${msg.sender} (${msg.contact})</p>
+                <p><strong>Date:</strong> ${msg.date}</p>
+                <p><strong>Message:</strong> ${msg.text}</p>
+            </div>
+        `;
+    }
+}
+
+// Function to clear the "database"
+function clearMessages() {
+    localStorage.removeItem('userMessage');
+    location.reload(); // Refresh the page to show it's empty
+}
+
 function saveMessage() {
     // This stops the page from refreshing so we can save the data first!
     if (event) event.preventDefault();
